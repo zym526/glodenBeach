@@ -1,0 +1,27 @@
+page{
+	.put_success{
+		.success_outer{
+			margin-top: 87rpx;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 28rpx;
+			color: #333333;
+			.icon{
+				font-size: 160rpx;
+				color: #003399;
+				margin-bottom: 30rpx;
+			}
+		}
+		button{
+			width: 420rpx;
+			height: 90rpx;
+			font-size: 32rpx;
+			line-height: 90rpx;
+			color: #FFFFFF;
+			background-color: #003399;
+			border-radius: 90rpx;
+			margin-top: 200rpx;
+		}
+	}
+}

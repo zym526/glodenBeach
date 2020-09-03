@@ -1,0 +1,115 @@
+page{
+	background-color: #F4F4F4;
+	.video_playback{
+		.status_bar{
+			width: 100%;
+			background-color: #000000;
+		}
+		.video_playback_outer{
+			position: relative;
+			font-size: 0rpx;
+			video{
+				width: 100%;
+				height: 450rpx;
+			}
+			.video_playback_top{
+				position: absolute;
+				z-index: 99;
+				top: 0rpx;
+				left: 0rpx;
+				right: 0rpx;
+				padding: 20rpx 26rpx;
+				color: #FFFFFF;
+				display: flex;
+				justify-content: space-between;
+				background-image: -webkit-gradient(linear,left top, left bottom,from(#000),color-stop(90%, rgba(0,0,0,0)));
+				background-image: linear-gradient(-180deg,#000 0%,rgba(0,0,0,0) 90%);
+				.iconjiantou9-copy,.iconweb-icon-{
+					font-size: 40rpx;
+				}
+			}
+			
+		}
+		.brief_introduction{
+			background-color: #FFFFFF;
+			padding: 20rpx 26rpx;
+			.brief_introduction_top{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.left_brief_introduction{
+					display: flex;
+					align-items: center;
+					font-size: 30rpx;
+					color: #232323;
+					.brief_introduction_image{
+						margin-right: 14rpx;
+						border: 3rpx solid #FFCC66;
+					}
+				}
+				.brief_introduction_look{
+					display: flex;
+					align-items: center;
+					padding: 12rpx 15rpx;
+					background-color: #FFCC66;
+					font-size: 30rpx;
+					color: #003399;
+					border-radius: 60rpx;
+					box-sizing: border-box;
+					.icon{
+						font-size: 30rpx;
+					}
+				}
+				.active_brief_introduction_look{
+					background-color: #FFFFFF;
+					border: 2rpx solid #FFCC66;
+					box-sizing: border-box;
+				}
+			}
+			.brief_introduction_text{
+				margin: 20rpx 0rpx;
+				font-size: 28rpx;
+				color: #666666;
+			}
+			.brief_introduction_bottom{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.tags_brief_introduction{
+					display: flex;
+					font-size: 24rpx;
+					color: #003399;
+					.one_tag_brief_introduction{
+						padding: 10rpx 16rpx;
+						background-color: #FFCC66;
+						border-radius: 10rpx;
+						margin-right: 15rpx;
+					}
+				}
+				.brief_introduction_bottom_right{
+					font-size: 26rpx;
+					color: #666666;
+				}
+			}
+		}
+		.vip_center{
+			font-size: 0rpx;
+			margin-top: 20rpx;
+			padding: 0rpx 26rpx;
+			image{
+				width: 100%;
+				height: auto;
+			}
+		}
+		.related_recommendations{
+			padding: 24rpx 26rpx;
+			font-size: 28rpx;
+			color: #232323;
+			background-color: #FFFFFF;
+			margin-top: 20rpx;
+		}
+		.recommend{
+			margin: 20rpx 26rpx 0rpx;
+		}
+	}
+}

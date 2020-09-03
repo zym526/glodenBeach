@@ -1,0 +1,73 @@
+page{
+	.user_information{
+		.slot-wrap{
+			margin-right: 30rpx;
+			color: #003399;
+			font-size: 28rpx;
+		}
+		.user_info{ 
+			.user{
+				padding: 0rpx 26rpx;
+				background-color: #FFFFFF;
+				margin-bottom: 20rpx;
+				.one_info{
+					padding: 30rpx 6rpx;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					border-bottom: 1rpx solid #E1E1E1;
+					&:last-child{
+						border-bottom: 0rpx;
+					}
+					.left_text{
+						font-size: 30rpx;
+						color: #333333;
+					}
+					.right_text{
+						font-size: 28rpx;
+						color: #999999;
+					}
+					.right_text2{
+						font-size: 28rpx;
+						line-height: 28rpx;
+						color: #232323;
+						display: flex;
+						align-items: center;
+						.icon{
+							font-size: 28rpx;
+							line-height: 28rpx;
+							color: #999999;
+						}
+					}
+					// 编辑页面
+					.right_input{
+						height: 100%;
+						box-sizing: border-box;
+						font-size: 28rpx;
+						text-align: right;
+						color: #232323;
+					}
+				}
+			}
+			.add_car_home{
+				margin-top: 20rpx;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 28rpx;
+				color: #003399;
+				line-height: 66rpx;
+				background-color: #FFFFFF;
+				.icon{
+					font-size: 28rpx;
+				}
+			}
+			.no_user_info{
+				margin:20rpx 0rpx 0rpx,
+			}
+			& /deep/ uni-view{
+				margin: 0rpx;
+			}
+		}
+	}
+}

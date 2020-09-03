@@ -1,0 +1,286 @@
+page{
+	background-color: #F4F4F4;
+	.adviser_home{
+		.adviser_info{
+			margin-top: 135rpx;
+			padding: 22rpx 26rpx 30rpx;
+			position: relative;
+			border-radius: 30rpx 30rpx 0rpx 0rpx;
+			background-color: #FFFFFF;
+			.adviser_info_image{
+				position: absolute;
+				left: 26rpx;
+				top: -70rpx;
+				border: 2rpx solid #FFFFFF;
+			}
+			.adviser_follow{
+				display: flex;
+				justify-content: flex-end;
+				.adviser_follow_outer{
+					display: flex;
+					align-items: center;
+					padding: 12rpx 15rpx;
+					background-color: #FFCC66;
+					border: 2rpx solid #FFCC66;
+					font-size: 30rpx;
+					color: #003399;
+					border-radius: 60rpx;
+					box-sizing: border-box;
+				}
+				.adviser_follow_outer_look{
+					background-color: #FFFFFF;
+					border: 2rpx solid #FFCC66;
+					box-sizing: border-box;
+				}
+			}
+			.adviser_info_name{
+				color: #232323;
+				font-size: 34rpx;
+				margin-top: 20rpx;
+				font-weight: bold;
+			}
+			.adviser_info_position,.adviser_info_brief_introduction{
+				margin-top: 20rpx;
+				font-size: 28rpx;
+				color: #232323;
+				text{
+					&:first-child{
+						padding-right: 15rpx;
+						position: relative;
+						&::before{
+							content: "";
+							width: 1rpx;
+							height: 30rpx;
+							background-color: #232323;
+							position: absolute;
+							right: -0.5rpx;
+							top: 50%;
+							transform: translateY(-50%);
+						}
+					}
+					&:last-child{
+						padding-left: 15rpx;
+					}
+				}
+			}
+			.adviser_info_tags{
+				display: flex;
+				flex-wrap: wrap;
+				.adviser_info_one_tag{
+					font-size: 24rpx;
+					color: #003399;
+					padding: 10rpx 16rpx;
+					background-color: #FFCC66;
+					border-radius: 10rpx;
+					margin-top: 20rpx;
+					margin-right: 15rpx;
+				}
+			}
+			.adviser_info_other{
+				font-size: 24rpx;
+				color: #666666;
+				margin-top: 20rpx;
+			}
+		}
+		.tabs_outer{
+			margin: 20rpx 0rpx 0rpx;
+			height: 80rpx;
+			background-color: #FFFFFF;
+			display: flex;
+			.one_tab{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 30rpx;
+			}
+			.active_one_tab{
+				color: #003399;
+				position: relative;
+				&::before{
+					content: "";
+					position: absolute;
+					width: 100rpx;
+					height: 5rpx;
+					background-color: #003399;
+					left: 50%;
+					bottom: 0rpx;
+					transform: translateX(-50%);
+				}
+			}
+		}
+		.recommend{
+			margin: 20rpx 26rpx 0rpx;
+		}
+		.area_outer{
+			width: 100%;
+			height: 100%;
+			left: 0rpx;
+			top: 0rpx;
+			position: fixed;
+			pointer-events: none;
+			movable-view{
+				width: 350rpx;
+				height: 500rpx;
+				pointer-events: auto;
+				position: relative;
+				video{
+					width: 100%;
+					height: 100%;
+					position: relative;
+					pointer-events: none;
+					.close{
+						width: 30rpx;
+						height: 30rpx;
+						position: absolute;
+						top: 20rpx;
+						right: 20rpx;
+						z-index: 999;
+					}
+					.outer_back{
+						z-index: 99;
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+		// 动态样式
+		.dynamic{
+			.one_dynamic{
+				margin-bottom: 20rpx;
+				background-color: #FFFFFF;
+				padding: 20rpx 26rpx;
+				box-sizing: border-box;
+				.dynamic_top{
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					.dynamic_top_left{
+						display: flex;
+						align-items: center;
+						.dynamic_top_image{
+							margin-right: 15rpx;
+						}
+						.dynamic_top_text{
+							.dynamic_top_name{
+								font-size: 26rpx;
+								color: #232323;
+							}
+							.dynamic_top_type{
+								font-size: 24rpx;
+								color: #999999;
+							}
+						}
+					}
+					.dynamic_top_right{
+						font-size: 26rpx;
+						color: #999999;
+					}
+				}
+				.dynamic_inside{
+					margin-top: 20rpx;
+					background-color: #F5F5F5;
+					padding: 20rpx;
+					box-sizing: border-box;
+					.dynamic_inside_problem{
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						.dynamic_inside_problem_text{
+							width: calc(100% - 131rpx);
+							text-overflow: -o-ellipsis-lastline;
+							overflow: hidden;
+							text-overflow: ellipsis;
+							display: -webkit-box;
+							-webkit-line-clamp: 2;
+							line-clamp: 2;
+							-webkit-box-orient: vertical;
+						}
+					}
+					.dynamic_inside_problem1{
+						border-radius: 20rpx;
+						background-color: #FFFFFF;
+						.dynamic_release_top{
+							position: relative;
+							.center_image{
+								font-size: 125rpx;
+								color: #FFFFFF;
+								position: absolute;
+								left: 50%;
+								top: 50%;
+								transform: translateX(-50%) translateY(-50%);
+							}
+							.article_text{
+								position: absolute;
+								left: 26rpx;
+								right: 26px;
+								bottom: 26rpx;
+								font-size: 38rpx;
+								color: #FFFFFF;
+								box-sizing: border-box;
+								text-overflow: -o-ellipsis-lastline;
+								overflow: hidden;
+								text-overflow: ellipsis;
+								display: -webkit-box;
+								-webkit-line-clamp: 2;
+								line-clamp: 2;
+								-webkit-box-orient: vertical;
+							}
+							.audio_length{
+								font-size: 38rpx;
+								color: #FFFFFF;
+								position: absolute;
+								left: 26rpx;
+								right: 26rpx;
+								bottom: 26rpx;
+								text-align: right;
+							}
+						}
+						.dynamic_release_title{
+							font-size: 38rpx;
+							color: #232323;
+							padding: 20rpx 30rpx;
+							overflow: hidden;
+							text-overflow:ellipsis;
+							white-space: nowrap;
+						}
+					}
+				}
+			}
+		}
+		// 评论样式
+		.comment{
+			.one_comment{
+				margin-bottom: 20rpx;
+				background-color: #FFFFFF;
+				padding: 20rpx 26rpx;
+				box-sizing: border-box;
+				.top_comment{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					.left_top_comment{
+						display: flex;
+						align-items: center;
+						font-size: 26rpx;
+						color: #232323;
+						.left_top_comment_image{
+							margin-right: 15rpx;
+						}
+					}
+					.right_top_comment{
+						font-size: 26rpx;
+						color: #999999;
+					}
+				}
+				.comment_inside{
+					margin-top: 20rpx;
+					padding: 20rpx;
+					background-color: #F5F5F5;
+					font-size: 30rpx;
+					color: #232323;
+				}
+			}
+		}
+	}
+}

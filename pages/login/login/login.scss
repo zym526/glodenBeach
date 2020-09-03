@@ -1,0 +1,29 @@
+.login{
+	text-align: center;
+	.status_bar{
+		width: 100%;
+		background-color: #333399;
+	}
+	.logo{
+		width: 224rpx;
+		height: auto;
+		margin: 154rpx 0px 234rpx;
+	}
+	button{
+		margin: 0rpx 75rpx;
+		font-size: 36rpx;
+		height: 90rpx;
+		line-height: 90rpx;
+		border-radius: 90rpx;
+	}
+	.customStyle{
+		background-color: #003399;
+		color: #FFFFFF;
+		margin-bottom: 60rpx;
+	}
+	.customStyle2{
+		background-color: #FFFFFF;
+		color: #003399;
+		border: 2rpx solid #003399;
+	}
+}

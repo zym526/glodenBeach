@@ -1,0 +1,76 @@
+page{
+	background-color: #F4F4F4;
+	.find{
+		.status_bar{
+			width: 100%;
+		}
+		.search{
+			display: flex;
+			justify-content: space-between;
+			padding: 20rpx 26rpx;
+			box-sizing: border-box;
+			background-color: #FFFFFF;
+			.search_outer{
+				width: 598rpx;
+				// height: 70rpx;
+				// background-color: #F1F1F1;
+				// border-radius: 70rpx;
+				// display: flex;
+				// align-items: center;
+				// .iconsousuo{
+				// 	margin: 0rpx 20rpx;
+				// 	font-size: 40rpx;
+				// }
+				// input{
+				// 	width: calc(100% - 80rpx);
+				// 	height: 100%;
+				// 	padding-right: 20rpx;
+				// 	font-size: 28rpx;
+				// }
+			}
+			.search_questions{
+				width: 70rpx;
+				height: 70rpx;
+				border-radius: 70rpx;
+				background-color: #003399;
+				position: relative;
+				.icon{
+					color: #FFCC66;
+					font-size: 40rpx;
+					position: absolute;
+					left: 55%;
+					top: 55%;
+					transform: translateX(-50%) translateY(-50%);
+				}
+			}
+		}
+		.tabs_outer{
+			border-top: 1rpx solid #E1E1E1;
+			background-color: #FFFFFF;
+			display: flex;
+			.one_tab{
+				text-align: center;
+				font-size: 30rpx;
+				color: #666666;
+				line-height: 80rpx;
+			}
+			.active_one_tab{
+				color: #003399;
+				position: relative;
+				&::before{
+					position: absolute;
+					content: "";
+					width: 100rpx;
+					height: 5rpx;
+					background-color: #003399;
+					left: 50%;
+					bottom: 0rpx;
+					transform: translateX(-50%);
+				}
+			}
+		}
+		.recommend{
+			padding: 20rpx 26rpx;
+		}
+	}
+}

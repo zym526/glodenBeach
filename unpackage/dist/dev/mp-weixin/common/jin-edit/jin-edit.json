@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "jin-icon": "/common/jin-edit/jin-icons"
+  }
+}

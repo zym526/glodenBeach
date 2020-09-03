@@ -1,0 +1,297 @@
+page{
+	.index{
+		border-top: 1px solid rgba(0,0,0,0);
+		margin-top: -1px;
+		min-height: 100%;
+		.status_bar{
+			width: 100%;
+		}
+		.top_search{
+			margin: 26rpx;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.search{
+				width: 451rpx;
+				height: 58rpx;
+				border-radius: 58rpx;
+				background-color: rgba(0,0,0,0.3);
+				display: flex;
+				align-items: center;
+				color: #FFFFFF;
+				padding: 20rpx;
+				box-sizing: border-box;
+				font-size: 24rpx;
+				.icon{
+					margin-right: 20rpx;
+					font-size: 24rpx;
+				}
+			}
+			.calendar_info{
+				width: 125rpx;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				.icon{
+					font-size: 46rpx;
+					color: #FFFFFF; 
+				}
+			}
+		}
+		// 顶部直播
+		.live_broadcast{
+			margin: 50rpx 26rpx 0rpx;
+			border-radius: 20rpx;
+			// padding: 20rpx 0rpx;
+			box-sizing: border-box;
+			background-color: #000000;
+			font-size: 0rpx;
+			position: relative;
+			.background_image{
+				width: 100%;
+				height: auto;
+				border-radius: 20rpx;
+			}
+			.top_right{
+				position: absolute;
+				right: 30rpx;
+				top: 30rpx;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				image{
+					width: 80rpx;
+					height: auto;
+				}
+				.top_right_inside{
+					font-size: 32rpx;
+					color: #FFCC66;
+					text-align: center;
+					margin-top: 20rpx;
+				}
+			}
+			.bottom_all{
+				position: absolute;
+				left: 0rpx;
+				bottom: 0rpx;
+				width: 100%;
+				.bottom_title{
+					font-size: 34rpx;
+					color: #FFFFFF;
+					margin: 0rpx 30rpx;
+					padding: 20rpx 0rpx;
+					border-bottom: 1rpx solid rgba(255,255,255,0.8);
+					overflow: hidden;
+					text-overflow:ellipsis;
+					white-space: nowrap;
+				}
+				.bottom_info{
+					margin: 0rpx 30rpx;
+					padding: 20rpx 0rpx;
+					color: #FFFFFF;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					.bottom_info_left{
+						display: flex;
+						align-items: center;
+						.avatar_image{
+							border: 3rpx solid #FFCC66;
+							margin-right: 20rpx;
+						}
+						.right_text{
+							color: #FFFFFF;
+							.right_text_name{
+								font-size: 32rpx;
+							}
+							.right_text_bottom{
+								font-size: 26rpx;
+							}
+						}
+					}
+					.bottom_info_right{
+						display: flex;
+						align-items: center;
+						.icon{
+							font-size: 30rpx;
+							color: #FFCC66;
+						}
+						text{
+							font-size: 26rpx;
+							color: #FFCC66;
+							margin-left: 10rpx;
+						}
+					}
+				}
+			}
+			// video{
+			// 	width: 100%;
+			// 	height: 100%;
+			// 	position: relative;
+			// 	.image_right{
+			// 		position: absolute;
+			// 		width: 80rpx;
+			// 		height: 80rpx;
+			// 		right: 30rpx;
+			// 		top: 30rpx;
+			// 	}
+			// 	.image_text{
+			// 		font-size: 32rpx;
+			// 		color: #FFCC66;
+			// 		position: absolute;
+			// 		width: 120rpx;
+			// 		text-align: center;
+			// 		right: 10rpx;
+			// 		top: 115rpx;
+			// 	}
+			// 	.live_title{
+			// 		font-size: 34rpx;
+			// 		line-height: 45rpx;
+			// 		color: #FFFFFF;
+			// 		width: calc(100% - 52rpx);
+			// 		position: absolute;
+			// 		left: 26rpx;
+			// 		bottom: 130rpx;
+			// 	}
+			// 	.live_line{
+			// 		position: absolute;
+			// 		width: calc(100% - 52rpx);
+			// 		left: 26rpx;
+			// 		bottom: 100rpx;
+			// 		height: 1rpx;
+			// 		background-color: #FFFFFF;
+			// 	}
+			// 	.user_image{
+			// 		width: 64rpx;
+			// 		height: 64rpx;
+			// 		position: absolute;
+			// 		left: 26rpx;
+			// 		bottom: 12rpx;
+			// 	}
+			// 	.user_name{
+			// 		font-size: 32rpx;
+			// 		line-height: 42rpx;
+			// 		color: #FFFFFF;
+			// 		position: absolute;
+			// 		bottom: 44rpx;
+			// 		left: 100rpx;
+			// 	}
+			// 	.user_authentication{
+			// 		font-size: 26rpx;
+			// 		line-height: 35rpx;
+			// 		color: #FFFFFF;
+			// 		position: absolute;
+			// 		bottom: 12rpx;
+			// 		left: 100rpx;
+			// 	}
+			// 	.look_people_image{
+			// 		width: 26rpx;
+			// 		height: 28rpx;
+			// 		position: absolute;
+			// 		right: 91rpx;
+			// 		bottom: 31rpx;
+			// 	}
+			// 	.look_people_num{
+			// 		font-size: 26rpx;
+			// 		color: #FFCC66;
+			// 		line-height: 30rpx;
+			// 		position: absolute;
+			// 		left: 625rpx;
+			// 		bottom: 35rpx;
+			// 	}
+			// }
+		}
+		// .live_broadcast{
+		// 	margin: 50rpx 26rpx 0rpx;
+		// 	border-radius: 20rpx;
+		// 	position: relative;
+		// 	font-size: 0rpx;
+		// 	video{
+		// 		width: 100%;
+		// 		height: 800rpx;
+		// 		border-radius: 20rpx;
+		// 	}
+		// 	.live_inside{
+		// 		position: absolute;
+		// 		z-index: 99;
+		// 		top: 0rpx;
+		// 		left: 0rpx;
+		// 		width: 100%;
+		// 		height: 100%;
+		// 		.gif{
+		// 			font-size: 32rpx;
+		// 			color: #FFCC66;
+		// 			position: absolute;
+		// 			right: 30rpx;
+		// 			top: 30rpx;
+		// 			image{
+		// 				width: 80rpx;
+		// 				height: auto;
+		// 			}
+		// 			.gif_text{
+		// 				line-height: 32rpx;
+		// 			}
+		// 		}
+		// 		.live_bottom{
+		// 			position: absolute;
+		// 			bottom: 30rpx;
+		// 			left: 30rpx;
+		// 			right: 30rpx;
+		// 			color: #FFFFFF;
+		// 			.live_title{
+		// 				font-size: 34rpx;
+		// 				line-height: 74rpx;
+		// 				color: #FFFFFF;
+		// 				overflow: hidden;
+		// 				text-overflow:ellipsis;
+		// 				white-space: nowrap;
+		// 				border-bottom: 1rpx solid #FFFFFF;
+		// 			}
+		// 			.live_user{
+		// 				display: flex;
+		// 				justify-content: space-between;
+		// 				align-items: center;
+		// 				margin-top: 22rpx;
+		// 				.left_live_user{
+		// 					display: flex;
+		// 					align-items: center;
+		// 					.user_image_bottom{
+		// 						border: 3rpx solid #FFCC66;
+		// 					}
+		// 					.left_live_user_info{
+		// 						font-size: 32rpx;
+		// 						margin-left: 12rpx;
+		// 						.left_live_user_name{
+		// 							width: 200rpx;
+		// 							overflow: hidden;
+		// 							text-overflow:ellipsis;
+		// 							white-space: nowrap;
+		// 						}
+		// 						.left_live_user_authentication{
+		// 							font-size: 26rpx;
+		// 						}
+		// 					}
+		// 				}
+		// 				.right_live_look{
+		// 					display: flex;
+		// 					align-items: center;
+		// 					.icon{
+		// 						font-size: 30rpx;
+		// 						color: #FFCC66;
+		// 					}
+		// 					.right_live_look_number{
+		// 						font-size: 26rpx;
+		// 						color: #FFCC66;
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
+		// 视频音频文章等列表
+		.list_video{
+			margin: 20rpx 26rpx;
+		}
+	}
+}

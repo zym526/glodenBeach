@@ -1,0 +1,1 @@
+<view class="content data-v-7761bc1b"><view data-event-opts="{{[['tap',[['toclick',['$event']]]]]}}" class="icon data-v-7761bc1b" style="{{'color:'+(color)+';'+('font-size:'+(fontSize)+';')}}" bindtap="__e"><rich-text nodes="{{type}}"></rich-text></view></view>

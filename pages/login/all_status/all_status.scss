@@ -1,0 +1,25 @@
+page{
+	min-height: 100%;
+	.slot-wrap{
+		margin-right: 30rpx;
+	}
+	.choose_status{
+		margin-top: 60rpx;
+		button{
+			margin: 0rpx 75rpx 60rpx;
+			font-size: 36rpx;
+			height: 90rpx;
+			line-height: 90rpx;
+			border-radius: 90rpx;
+		}
+		.customStyle{
+			background-color: #003399;
+			color: #FFFFFF;
+		}
+		.customStyle2{
+			background-color: #FFFFFF;
+			color: #003399;
+			border: 2rpx solid #003399;
+		}
+	}
+}

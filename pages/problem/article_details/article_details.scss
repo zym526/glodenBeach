@@ -1,0 +1,220 @@
+page{
+	.article_details{
+		// background-image: url("https://imgxypvipcn.oss-cn-hangzhou.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200729105505.png");
+		// background-size: 100% auto;
+		// background-repeat: no-repeat;
+		.slot-wrap {
+			.icon{
+				font-size: 38rpx;
+				margin-right: 24rpx;
+				color: #fff;
+			}
+		}
+		.no_icon{
+			.icon{
+				color: #232323!important;
+			}
+		}
+		.special_column{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			color: #FFCC66;
+			font-size: 28rpx;
+			line-height: 32rpx;
+			margin: 144rpx 26rpx 21rpx;
+			.icon{
+				font-size: 32rpx;
+				margin-right: 9rpx;
+			}
+		}
+		.special_column_title{
+			padding: 26rpx 26rpx 55rpx;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: #003399;
+			background: rgba(255, 204, 102, 0.8);
+			.special_column_left{
+				display: flex;
+				font-size: 36rpx;
+				.icon{
+					font-size: 42rpx;
+					margin-right: 11rpx;
+				}
+			}
+			.special_column_right{
+				display: flex;
+				.special_column_right_follow,.special_column_right_look{
+					display: flex;
+					align-items: center;
+					font-size: 30rpx;
+					line-height: 30rpx;
+					.icon{
+						font-size: 30rpx;
+						line-height: 30rpx;
+						display: flex;
+						align-items: center;
+					}
+					.special_column_right_follow_text{
+						margin-left: 5rpx;
+						margin-right: 20rpx;
+					}
+					.special_column_right_look_text{
+						margin-left: 20rpx;
+						// margin-right: 10rpx;
+					}
+				}
+				.special_column_right_follow{
+					border-right: 1px solid rgba(241, 241, 241, 0.5);
+					.icon{
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.article{
+			border-radius: 20rpx 20rpx 0rpx 0rpx;
+			margin-top: -29rpx;
+			background-color: #FFFFFF;
+			border-top: 1px solid rgba(0,0,0,0);
+			padding: 26rpx 26rpx 0rpx;
+			box-sizing: border-box;
+			margin-bottom: 20rpx;
+			.article_title{
+				font-size: 50rpx;
+				color: #232323;
+				font-weight: bold;
+			}
+			.tag_all{
+				margin: 20rpx 0rpx 0rpx;
+				display: flex;
+				flex-wrap: wrap;
+				.tag{
+					font-size: 24rpx;
+					line-height: 42rpx;
+					padding: 0rpx 7rpx;
+					color: #003399;
+					background-color: #FFCC33;
+					border-radius: 10rpx;
+					text-align: center;
+					margin-right: 20rpx;
+					margin-bottom: 20rpx;
+				}
+			}
+			.author{
+				display: flex;
+				justify-content: space-between;
+				font-size: 24rpx;
+				color: #666;
+				padding-bottom: 18rpx;
+				border-bottom: 1rpx solid rgba(223, 223, 223, 0.5);
+				margin-top: 20rpx;
+				.author_time{
+					text{
+						margin-right: 10rpx;
+						&:first-child{
+							padding-right: 10rpx;
+							border-right: 1rpx solid #DFDFDF;
+						}
+					}
+				}
+			}
+			.article_content{
+				padding: 30rpx 0rpx 41rpx;
+				.audio_outer{
+					height: 88rpx;
+					width: 100%;
+					border-radius: 88rpx;
+					background-color: #F0F0F0;
+					font-size: 30rpx;
+					color: #999999;
+					display: flex;
+					justify-content: space-between;
+					padding: 0rpx 30rpx;
+					align-items: center;
+					margin-bottom: 26rpx;
+					.audio_play_left{
+						display: flex;
+						align-items: center;
+						.audio_play_image{
+							font-size: 0rpx;
+							margin-right: 20rpx;
+							image{
+								width: 50rpx;
+								height: auto;
+							}
+						}
+					}
+				}
+				video{
+					width: 100%;
+				}
+				.content_outer{
+					& /deep/ .contheight{
+						width: 100%!important;
+					}
+				}
+				.look_like{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 20rpx;
+					.left_look_like{
+						font-size: 22rpx;
+						color: #999999;
+					}
+					.right_like{
+						font-size: 24rpx;
+						color: #999999;
+						display: flex;
+						align-items: center;
+						.icon{
+							font-size: 30rpx;
+							color: #FFCC66;
+						}
+					}
+					.no_icon{
+						.icon{
+							color: #999999!important;
+						}
+					}
+				}
+			}
+			// 	.article_bottom{
+			// 		display: flex;
+			// 		justify-content: space-around;
+			// 		.goHome,.next_article{
+			// 			width: 240rpx;
+			// 			line-height: 70rpx;
+			// 			font-size: 32rpx;
+			// 			text-align: center;
+			// 			color: #666666;
+			// 			border: 2rpx solid #666;
+			// 			border-radius: 70rpx;
+			// 		}
+			// 		.next_article{
+			// 			color: #FFCC66;
+			// 			border: 2rpx solid #FFCC66;
+			// 		}
+			// 	}
+			// }
+		}
+		// 精彩推荐
+		.wonderful{
+			background-color: #fff;
+			margin-top: 20rpx;
+			.wonderful_top{
+				padding: 20rpx 26rpx;
+				font-size: 36rpx;
+				color: #232323;
+				font-weight: bold;
+				border-bottom: 1rpx solid #F1F1F1;
+			}
+			.recommend{
+				padding: 20rpx 26rpx;
+			}
+		}
+	}
+}

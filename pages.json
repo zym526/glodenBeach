@@ -1,0 +1,127 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+            "path" : "pages/login/login/login",//注册或登录
+            "style" : {}
+        }
+		,{
+		    "path" : "pages/login/all_status/all_status",//状态选择
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/login/address_choose/address_choose",//地址选择
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/sign_in/sign_in",//登录或注册界面
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/index/index",//首页
+            "style" : {
+				 "enablePullDownRefresh": true
+			}
+        }
+		,{
+		    "path" : "pages/index/find/find",//发现
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/index/my/my",//我的
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/live_broadcast/live_broadcast/live_broadcast",//直播页
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/live_broadcast/adviser_home/adviser_home",//顾问主页
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/live_broadcast/video_playback/video_playback",//视频播放页面
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/problem/search/search",//搜索页面
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/problem/put_questions/put_questions",//提问页面
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal_center/user_information/user_information",//用户信息
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal_center/follow/follow",//我的关注
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal_center/collection_browse/collection_browse",//收藏和浏览记录
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/problem/special_column/special_column",//专栏页
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/problem/question_and_answer/question_and_answer",//问答页面
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/problem/article_details/article_details",//文章详情
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/problem/put_success/put_success",//发布问题成功
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/agreement/agreement",//用户协议
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/external/external",//跳转外部界面
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal_center/my_question/my_question",//我的提问
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom" ,
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "金沙滩",
+		"navigationBarBackgroundColor": "#333399",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#003399",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+		"iconWidth":"25",
+	    "list": [{
+	        "pagePath": "pages/index/index/index",
+	        "iconPath": "static/images/index.png",
+	        "selectedIconPath": "static/images/indexActive.png",
+	        "text": "首页"
+	    },{
+	        "pagePath": "pages/index/find/find",
+	        "iconPath": "static/images/find.png",
+	        "selectedIconPath": "static/images/findActive.png",
+	        "text": "发现"
+	    },{
+	        "pagePath": "pages/index/my/my",
+	        "iconPath": "static/images/my.png",
+	        "selectedIconPath": "static/images/myActive.png",
+	        "text": "我的"
+	    }]
+	}
+}

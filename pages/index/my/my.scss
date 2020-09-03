@@ -1,0 +1,124 @@
+page{
+	.status_bar{
+		width: 100%;
+		background-color: #003399;
+	}
+	.user_info{
+		background-color: #003399;
+		color: #FFFFFF;
+		padding-bottom: 150rpx;
+		border-radius: 0rpx 0rpx 25% 25%;
+		position: relative;
+		.setting{
+			padding: 32rpx 26rpx;
+			display: flex;
+			justify-content: flex-end;
+			.icon{
+				font-size: 44rpx;
+			}
+		}
+		.user_info_outer{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0rpx 26rpx;
+			.user_left{
+				display: flex;
+				align-items: center;
+				.user_info_iamge{
+					border: 2rpx solid #FFFFFF;
+					margin-right: 11rpx;
+				}
+				.user_name{
+					font-size: 34rpx;
+					color: #FFFFFF;
+					margin-right: 11rpx;
+				}
+				.icon{
+					font-size: 32rpx;
+					color: #FFCC66;
+				}
+			}
+			.icon{
+				font-size: 34rpx;
+			}
+		}
+		.four_vip{
+			position: absolute;
+			width: calc(100% - 52rpx);
+			left: 26rpx;
+			top: 260rpx;
+			height: 320rpx;
+			box-shadow: 0rpx 0rpx 20rpx rgba(0,0,0,0.1);
+			border-radius: 10rpx;
+			.four_outer{
+				position: absolute;
+				left: 0rpx;
+				top: 0rpx;
+				z-index: 1;
+				padding: 30rpx 0rpx;
+				display: flex;
+				justify-content: space-around;
+				width: 100%;
+				background-color: #FFFFFF;
+				border-radius: 10rpx;
+				color: #232323;
+				.one_classify{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					.image_one_classify{
+						width: 80rpx;
+						height: 80rpx;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						border-radius: 80rpx;
+						.icon{
+							color: #FFFFFF;
+							font-size: 40rpx;
+						}
+					}
+					.one_classify_text{
+						font-size: 26rpx;
+						color: #232323;
+						line-height: 30rpx;
+						margin-top: 10rpx;
+					}
+				}
+			}
+			.vip{
+				font-size: 0rpx;
+				position: absolute;
+				bottom: 0rpx;
+				left: 0rpx;
+				width: 100%;
+				border-radius: 0rpx 0rpx 10rpx 10rpx;
+				image{
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+	.list_outer{
+		margin: 230rpx 26rpx 20rpx;
+		background-color: #FFFFFF;
+		border-radius: 10rpx; 
+		.one_inside{
+			display: flex;
+			justify-content: space-between;
+			padding: 30rpx 28rpx;
+			font-size: 30rpx;
+			color: #232323;
+			border-bottom: 1rpx solid #E1E1E1;
+			&:last-child{
+				border-bottom: 0rpx;
+			}
+			.icon{
+				font-size: 27rpx;
+				color: #999999;
+			}
+		}
+	}
+}

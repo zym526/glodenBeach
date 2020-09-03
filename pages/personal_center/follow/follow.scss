@@ -1,0 +1,56 @@
+page{
+	.follow{
+		.outer_all{
+			padding: 0rpx 26rpx;
+			.one_follor{
+				border-bottom: 1rpx solid #EBEBEB;
+				padding: 30rpx 0rpx;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.left_follor{
+					width: calc(100% - 150rpx);
+					display: flex;
+					align-items: center;
+					.left_follor_text{
+						width: calc(100% - 110rpx);
+						.left_follor_title{
+							font-size: 36rpx;
+							color: #232323;
+							width: 100%;
+							overflow: hidden;
+							text-overflow:ellipsis;
+							white-space: nowrap;
+						}
+						.left_follor_num{
+							font-size: 26rpx;
+							color: #656565;
+						}
+						.left_follor_title_two{
+							font-size: 28rpx;
+							color: #232323;
+						}
+						.left_follor_num_two{
+							font-size: 20rpx;
+							color: #656565;
+						}
+					}
+				}
+				.right_follor{
+					font-size: 26rpx;
+					line-height: 48rpx;
+					color: #003399;
+					padding: 0rpx 18rpx;
+					border-radius: 48rpx;
+					border: 2rpx solid #003399;
+				}
+			}
+		}
+		.slot-content{
+			padding: 80rpx 0rpx;
+			text-align: center;
+			font-size: 34rpx;
+			color: #232323;
+		}
+	}
+}

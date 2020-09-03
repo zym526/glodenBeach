@@ -1,0 +1,106 @@
+page{
+	.search{
+		// 搜索框
+		.top_search{
+			padding: 20rpx 26rpx;
+			background-color: #fff;
+			border-bottom: 1rpx solid #E1E1E1;
+		}
+		// 历史记录
+		.history_list{
+			padding: 0rpx 26rpx;
+			.one_history{
+				width: 100%;
+				padding: 20rpx 0rpx;
+				border-bottom: 1rpx solid #E1E1E1;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.one_history_left{
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					width: calc(100% - 40rpx);
+					.icon{
+						font-size: 40rpx;
+						color: #999999;
+					}
+					.one_history_title{
+						width: calc(100% - 55rpx);
+						font-size: 28rpx;
+						color: #232323;
+						overflow: hidden;
+						text-overflow:ellipsis;
+						white-space: nowrap;
+					}
+				}
+				.iconguanbi{
+					font-size: 20rpx;
+					color: #999999;
+				}
+			}
+			.clean_history{
+				font-size: 28rpx;
+				color: #999999;
+				text-align: center;
+				padding: 20rpx 0rpx;
+			}
+		}
+		.no_history{
+			font-size: 28rpx;
+			text-align: center;
+			color: #999999;
+			padding: 20rpx 0rpx;
+		}
+		// 检索内容
+		.search_list{
+			padding: 0rpx 26rpx;
+			.special_column{
+				padding: 20rpx 0rpx;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				border-bottom: 1rpx solid #E1E1E1;
+				.special_column_left{
+					width: calc(100% - 100rpx);
+					display: flex;
+					align-items: center;
+					.special_column_title{
+						font-size: 36rpx;
+						color: #232323;
+						width: calc(100% - 111rpx);
+						overflow: hidden;
+						text-overflow:ellipsis;
+						white-space: nowrap;
+					}
+				}
+				.special_column_right{
+					color: #666666;
+					font-size: 28rpx;
+					line-height: 28rpx;
+					background-color: #EEEEEE;
+					border: 1rpx solid #666666;
+					border-radius: 6rpx;
+					padding: 11rpx 13rpx;
+				}
+			}
+			.retrieval{
+				padding: 20rpx 0rpx;
+				display: flex;
+				align-items: center;
+				border-bottom: 1rpx solid #E1E1E1;
+				.icon{
+					font-size: 29rpx;
+					color: #999999;
+					margin-right: 16rpx;
+				}
+				.retrieval_title{
+					width: calc(100% - 45rpx);
+					overflow: hidden;
+					text-overflow:ellipsis;
+					white-space: nowrap;
+				}
+			}
+		}
+	}
+}

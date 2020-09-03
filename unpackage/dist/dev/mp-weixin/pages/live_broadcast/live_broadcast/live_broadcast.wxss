@@ -1,0 +1,212 @@
+
+page{background-color: #F4F4F4;}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-2504f507 {
+  background-color: #F4F4F4;
+}
+page .live_broadcast .status_bar.data-v-2504f507 {
+  width: 100%;
+  background-color: #000000;
+}
+page .live_broadcast .is_live_broadcast.data-v-2504f507 {
+  position: relative;
+  font-size: 0rpx;
+}
+page .live_broadcast .is_live_broadcast video.data-v-2504f507 {
+  width: 100%;
+  height: 450rpx;
+  position: relative;
+}
+page .live_broadcast .is_live_broadcast video .left_back.data-v-2504f507 {
+  width: 42rpx;
+  height: 42rpx;
+  position: absolute;
+  left: 24rpx;
+  top: 20rpx;
+}
+page .live_broadcast .is_live_broadcast video .image_left.data-v-2504f507 {
+  position: absolute;
+  left: 70rpx;
+  top: 15rpx;
+  width: 56rpx;
+  height: 56rpx;
+}
+page .live_broadcast .is_live_broadcast video .user_name.data-v-2504f507 {
+  position: absolute;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  color: #FFFFFF;
+  top: 10rpx;
+  left: 136rpx;
+}
+page .live_broadcast .is_live_broadcast video .look_num.data-v-2504f507 {
+  position: absolute;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  color: #FFFFFF;
+  top: 40rpx;
+  left: 136rpx;
+}
+page .live_broadcast .is_live_broadcast video .like_people.data-v-2504f507 {
+  font-size: 30rpx;
+  color: #003399;
+  background-color: #FFCC66;
+  width: 98rpx;
+  height: 48rpx;
+  border-radius: 98rpx;
+  text-align: center;
+  position: absolute;
+  left: 300rpx;
+  top: 20rpx;
+}
+page .live_broadcast .is_live_broadcast video .home_num.data-v-2504f507 {
+  font-size: 26rpx;
+  line-height: 32rpx;
+  color: #FFFFFF;
+  position: absolute;
+  right: 100rpx;
+  top: 20rpx;
+}
+page .live_broadcast .is_live_broadcast video .image_right.data-v-2504f507 {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 26rpx;
+  top: 20rpx;
+}
+page .live_broadcast .tab_two.data-v-2504f507 {
+  width: 100%;
+  height: 80rpx;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+}
+page .live_broadcast .tab_two.data-v-2504f507::before {
+  content: "";
+  width: 2rpx;
+  height: 26rpx;
+  background-color: #E1E1E1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+page .live_broadcast .tab_two view.data-v-2504f507 {
+  width: 50%;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+page .live_broadcast .tab_two .active_tab.data-v-2504f507 {
+  color: #003399;
+  position: relative;
+}
+page .live_broadcast .tab_two .active_tab.data-v-2504f507::before {
+  content: "";
+  width: 100rpx;
+  height: 5rpx;
+  background-color: #003399;
+  bottom: 0rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
+}
+page .live_broadcast .interaction.data-v-2504f507 {
+  position: relative;
+}
+page .live_broadcast .interaction .interaction_inside.data-v-2504f507 {
+  height: calc(100% - 98rpx);
+  padding: 16rpx 26rpx;
+  box-sizing: border-box;
+}
+page .live_broadcast .interaction .interaction_inside .one_user_interaction.data-v-2504f507 {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  line-height: 36rpx;
+}
+page .live_broadcast .interaction .interaction_inside .one_user_interaction .one_user_name.data-v-2504f507 {
+  color: #999999;
+}
+page .live_broadcast .interaction .interaction_inside .one_user_interaction.data-v-2504f507:first-child {
+  margin-top: 0rpx;
+}
+page .live_broadcast .interaction .interaction_bottom.data-v-2504f507 {
+  height: 98rpx;
+  position: absolute;
+  left: 0rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  background-color: #FFFFFF;
+  padding: 14rpx 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 30rpx;
+}
+page .live_broadcast .interaction .interaction_bottom .you_speech.data-v-2504f507 {
+  width: 623rpx;
+  height: 100%;
+  background-color: #F1F1F2;
+  border-radius: 98rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  font-size: 32rpx;
+}
+page .live_broadcast .interaction .interaction_bottom .interaction_bottom_send_out.data-v-2504f507 {
+  color: #003399;
+}
+page .live_broadcast .brief_introduction .introduce.data-v-2504f507 {
+  padding: 26rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #666666;
+  background-color: #FFFFFF;
+}
+page .live_broadcast .brief_introduction .related_recommendations.data-v-2504f507 {
+  margin: 20rpx 0rpx;
+  padding: 26rpx;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  font-size: 28rpx;
+  color: #232323;
+}
+page .live_broadcast .brief_introduction .list_video.data-v-2504f507 {
+  margin: 20rpx 26rpx;
+}
+

@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/login/login/login",
+    "pages/login/all_status/all_status",
+    "pages/login/address_choose/address_choose",
+    "pages/login/sign_in/sign_in",
+    "pages/index/index/index",
+    "pages/index/find/find",
+    "pages/index/my/my",
+    "pages/live_broadcast/live_broadcast/live_broadcast",
+    "pages/live_broadcast/adviser_home/adviser_home",
+    "pages/live_broadcast/video_playback/video_playback",
+    "pages/problem/search/search",
+    "pages/problem/put_questions/put_questions",
+    "pages/personal_center/user_information/user_information",
+    "pages/personal_center/follow/follow",
+    "pages/personal_center/collection_browse/collection_browse",
+    "pages/problem/special_column/special_column",
+    "pages/problem/question_and_answer/question_and_answer",
+    "pages/problem/article_details/article_details",
+    "pages/problem/put_success/put_success",
+    "pages/login/agreement/agreement",
+    "pages/external/external",
+    "pages/personal_center/my_question/my_question"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "金沙滩",
+    "navigationBarBackgroundColor": "#333399",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#003399",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "iconWidth": "25",
+    "list": [
+      {
+        "pagePath": "pages/index/index/index",
+        "iconPath": "static/images/index.png",
+        "selectedIconPath": "static/images/indexActive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/find/find",
+        "iconPath": "static/images/find.png",
+        "selectedIconPath": "static/images/findActive.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/index/my/my",
+        "iconPath": "static/images/my.png",
+        "selectedIconPath": "static/images/myActive.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "five-index": "/common/five_index",
+    "no-data": "/common/no_data"
+  }
+}
